@@ -4,8 +4,8 @@
   "description": "Test task Kickity",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline --progress --mode development",
-    "build": "webpack -p --progress --mode production"
+    "start": "webpack-dev-server --hot --inline --progress --mode development",
+    "build": "webpack -p --progress --mode production",
   },
   "author": "Alexey Schurenkov",
   "license": "ISC",
