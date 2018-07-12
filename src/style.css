@@ -1,0 +1,133 @@
+body{
+  background: #F1F6F9;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  font-size: 14px;
+}
+.app{
+  max-width: 1029px;
+  margin: auto;
+  padding: 25px 0;
+}
+h1{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+}
+p, input, button, table, label, .pure-table td, .pure-table th{
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+.pure-custom-btn-send{
+  background: #009AD6;
+  border-radius: 20px;
+  color: #fff
+}
+.pure-custom-btn-send-table{
+  background: #009AD6;
+  border-radius: 20px;
+  color: #fff;
+  height: 20px;
+  width: 60px;
+  padding: 0px
+}
+.pure-custom-form fieldset{
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 0px
+}
+.pure-custom-form input{
+  margin-bottom: 0px;
+  border-radius: 8px !important;
+  width: 241px;
+  height: 41px;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 15px !important;
+}
+.pure-custom-form button{
+  width: 118px;
+  height: 39.9px;
+}
+.pure-g-btn{
+  margin: 30px 0 20px;
+}
+.pure-button-group-custom button{
+  margin: 0 20px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  line-height: 1.8;
+  color: #8A9AAB;
+}
+.pure-button-group-custom .active span{
+  border-bottom: 1px solid #009AD6;
+  display: inline-block;
+}
+.pure-delete-btn{
+  text-align: right
+}
+.pure-delete-btn button{
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  line-height: 1.8;
+  color: #8A9AAB;
+}
+.pure-table, .pure-table td, .pure-table th{
+  border: none;
+}
+.pure-table tbody {
+  background: #fff;
+  color: #3A3E49;
+}
+thead, tbody {
+   display: block;
+}
+tbody {
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.pure-table th:nth-child(1), .pure-table td:nth-child(1){
+  width: 30px;
+}
+.pure-table th:nth-child(2), .pure-table td:nth-child(2){
+  width: 300px;
+}
+.pure-table th:nth-child(3), .pure-table td:nth-child(3){
+  width: 200px;
+}
+.pure-table th:nth-child(4), .pure-table td:nth-child(4){
+  width: 200px;
+}
+.pure-table th{
+  padding: 1em;
+}
+.pure-table thead{
+  background: #E7F0F7;
+  height: 46px;
+}
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.styled-checkbox + label:before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #e7f0f7;
+  border-radius: 2px;
+}
+
+.styled-checkbox:checked + label:before {
+  background: #009ad6;
+}
